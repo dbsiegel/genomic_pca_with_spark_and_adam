@@ -18,7 +18,7 @@ import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.ml.feature.PCA
 import org.apache.spark.ml.feature.VectorSlicer
 
-
+//this was aws ec2 spark master in my case
 val myhost = "hdfs://<MASTER IP>:9010"
 
 //broadcast the sampleID to population map
