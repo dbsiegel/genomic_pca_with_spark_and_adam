@@ -13,8 +13,6 @@ import scala.collection.JavaConverters._
 import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.mllib.linalg.Vectors._
 import org.apache.spark.ml.feature.VectorAssembler
-import org.apache.spark.mllib.regression._
-import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.ml.feature.PCA
 import org.apache.spark.ml.feature.VectorSlicer
 
