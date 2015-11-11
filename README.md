@@ -19,10 +19,6 @@ gunzip ALL.chr22.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.vcf.gz
 ./bin/hadoop fs -put /vol0/data/ALL.chr22.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.vcf /user/ds/genomics/1kg/vcf/
 ```
 
-Theoretically we could do this in one line, though I had some issues with that and did it separately for now. Here is what I tried: 
-```
-gunzip ALL.chr22.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.vcf.gz | ./bin/hadoop fs -put - /user/ds/genomics/1kg/vcf/
-```
 
 ## Use ADAM-CLI to convert vcf to adam format. 
 ```
