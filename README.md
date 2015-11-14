@@ -1,4 +1,4 @@
-# code for Seattle Spark Meetup Machine Learning Roundtable 10/14/2015
+# code for Seattle Spark Meetup Machine Learning Roundtable
 
 ## Before we run the analysis code, we need to get our data into hdfs
 
